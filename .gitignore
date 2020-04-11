@@ -1,2 +1,5 @@
-
-Libs/AceAddon-3.0/AceAddon-3.0.lua
+# We don't want to keep the open source libs under version control.
+Libs/Ace*
+Libs/CallbackHandler-1.0/*
+Libs/LibDBIcon-1.0/*
+Libs/LibStub/*
