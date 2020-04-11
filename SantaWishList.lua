@@ -14,12 +14,20 @@ local defaults = {
     },
 }
 
+--------------------------------------------------------------------------------
+-- name: ShowItemList
+-- args:    widget : the inventory slot we want to show items for.
+-- returns: none
+-- description: Handle the on click event for an inventory slot
+--------------------------------------------------------------------------------
+function SWL:GetPersonalizedLootTableBySlot(slotId)
+end
+
 --- Init of Addon
 --
 -- 
 function SWL:OnInitialize()
     self.db = LibStub("AceDB-3.0"):New("Santa_DB", defaults)
-    
     SWL:setupMiniMapIcon()
 end
 
