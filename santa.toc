@@ -1,0 +1,8 @@
+## Interface 80300
+## Title: Santa Wish List
+## Author: TeamAddis
+## Version: 0.1
+
+Libs\include.xml
+include.xml
+Frames\include.xml
